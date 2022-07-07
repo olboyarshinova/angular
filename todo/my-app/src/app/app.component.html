@@ -1,0 +1,35 @@
+<h1 style="text-align: center">todo</h1>
+<br>
+<div class='container'>
+  <div class='row justify-content-md-center'>
+    <div class='col col-lg-3'>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+          aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary btn-primary" type="button" id="button-addon2">Button</button>
+      </div>
+      <table class="table table-striped">
+        <tbody>
+          <tr ngFor="let todo of todos; let i=index;">
+            <th scope="row"></th>
+            <td></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+      <app-time></app-time>
+      <br>
+      <app-date></app-date>
+      <br>
+      <br>
+      <app-button></app-button>
+      <br>
+      <br>
+      <app-two></app-two>
+      <br>
+      <br>
+      <app-style></app-style>
+    </div>
+  </div>
+</div>

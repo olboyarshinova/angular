@@ -1,0 +1,7 @@
+<button *ngIf="isCollapse" (click)="toggleCollapse()">Показать</button>
+<button *ngIf="!isCollapse" (click)="toggleCollapse()">Спрятать</button>
+<div *ngIf="!isCollapse">
+  <p>
+    Lorem ipsum dolor sit amet.
+  </p>
+</div>
